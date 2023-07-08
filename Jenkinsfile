@@ -18,5 +18,5 @@ pipeline {
                 sh 'docker run -itd --name=my-container my-docker-image bash'
             }
         }
-            }
-        }
+    }
+}

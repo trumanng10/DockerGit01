@@ -15,7 +15,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Add your test steps here
-                sh 'docker run -itd my-docker-image bash'
+                sh 'docker run -itd --name=my-container my-docker-image bash'
             }
         }
             }
